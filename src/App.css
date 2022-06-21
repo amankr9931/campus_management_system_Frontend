@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  position: fixed;
+  height: 25px;
+  bottom: 0;
+  width: 100%; 
+  
+}
+
+.background-main{
+  /* background-image: url("https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+  background-image: url("https://cdn.pixabay.com/photo/2019/03/01/00/49/ford-buildings-4027205_960_720.jpg");
+  width:100%;
+  height: 92vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.main-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.login-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table-j{
+  margin:0 10px;
+
+}
+#logo{
+  margin-left: 10px;
+}
+.bar{
+  margin-left:-500px
+}
+
+.temp{
+  margin-top: 50px;
+  margin-left:1100px
+}
+.container-a {
+  display: flex;
+  height: 50px;
+  /* margin: 100px; */
+  
+}
+.jay {
+  /* padding: 23px 12px; */
+  /* height: 100px; */
+  /* margin: 0px; */
+  width:500px;
+
+}
+.asd{
+align-self: center;
+height: 200px; 
+width: 200px;
+}
+
+.back{
+  /* background-image: url("https://images.unsplash.com/photo-1532153259564-a5f24f261f51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+  background-image: url("https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  width: 100%;
+  height: 100%;
+}
